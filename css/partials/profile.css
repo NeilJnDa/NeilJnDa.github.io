@@ -16,10 +16,16 @@
   margin-bottom: $margin-l-1;
 }
 .profile .profile-content .profile-link {
-  margin-top: 0;
   margin-bottom: $margin-m-1;
 }
 .profile .profile-image {
+  width: 50%;
+}
+.profile .profile-highlight-image-1 {
+  margin-top: 20%;
+  width: 50%;
+}
+.profile .profile-highlight-image-2 {
   width: 50%;
 }
 @media (max-width: 480px) {
