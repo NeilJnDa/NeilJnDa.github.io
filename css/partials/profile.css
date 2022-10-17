@@ -27,9 +27,10 @@
 }
 .profile .profile-highlight-image-2 {
   width: 50%;
+  margin-top: 5%;
 }
 .profile .profile-read-more {
-  margin-top: 20%;
+  margin-top: 30%;
 }
 @media (max-width: 480px) {
   .profile {
