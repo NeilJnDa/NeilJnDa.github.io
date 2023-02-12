@@ -1,8 +1,3 @@
-.profile {
-  margin-top: $margin-primary;
-  display: flex;
-  flex-direction: row-reverse;
-}
 .profile .profile-main {
   margin-top: $margin-primary;
   display: flex;
