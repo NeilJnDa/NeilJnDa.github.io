@@ -21,16 +21,23 @@
 .profile .profile-image {
   width: 50%;
 }
-.profile .profile-highlight-image-1 {
-  margin-top: 20%;
-  width: 50%;
+.profile-highlights {
+  width: 100%;
+  display: flex;
+  margin-top: 10%;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
-.profile .profile-highlight-image-2 {
-  width: 50%;
-  margin-top: 5%;
+.profile-highlights .profile-highlight-container {
+  width: 200px;
+  margin: 10px;
 }
-.profile .profile-read-more {
-  margin-top: 30%;
+.profile-highlights .profile-highlight-image {
+  width: 200px;
+  height: auto;
+}
+.profile-highlights .profile-highlight-text {
+  padding: 5px;
 }
 @media (max-width: 480px) {
   .profile {
