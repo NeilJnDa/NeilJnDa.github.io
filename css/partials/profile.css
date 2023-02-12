@@ -3,40 +3,45 @@
   display: flex;
   flex-direction: row-reverse;
 }
-.profile .profile-content {
+.profile .profile-main {
+  margin-top: $margin-primary;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.profile .profile-main .profile-content {
   width: 50%;
   margin: 0 $margin-l-0 0 0;
 }
-.profile .profile-content .profile-title {
+.profile .profile-main .profile-content .profile-title {
   margin-top: 0;
   margin-bottom: $margin-m-0;
 }
-.profile .profile-content .profile-body {
+.profile .profile-main .profile-content .profile-body {
   margin-top: 0;
   margin-bottom: $margin-l-1;
 }
-.profile .profile-content .profile-link {
+.profile .profile-main .profile-content .profile-link {
   margin-bottom: $margin-m-1;
 }
-.profile .profile-image {
+.profile .profile-main .profile-image {
   width: 50%;
 }
-.profile-highlights {
+.profile .profile-highlights {
   width: 100%;
   display: flex;
   margin-top: 10%;
   flex-wrap: wrap;
   justify-content: space-around;
 }
-.profile-highlights .profile-highlight-container {
+.profile .profile-highlights .profile-highlight-container {
   width: 200px;
   margin: 10px;
 }
-.profile-highlights .profile-highlight-image {
+.profile .profile-highlights .profile-highlight-image {
   width: 200px;
   height: auto;
 }
-.profile-highlights .profile-highlight-text {
+.profile .profile-highlights .profile-highlight-text {
   padding: 5px;
 }
 @media (max-width: 480px) {
